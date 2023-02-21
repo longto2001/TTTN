@@ -1,0 +1,111 @@
+Lỗi biên dịch
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< kcore:C-Biomarker.net >------------------------
+[INFO] Building C-Biomarker.net 0.0.1
+[INFO] -------------------------------[ bundle ]-------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ C-Biomarker.net ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 10 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ C-Biomarker.net ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 53 source files to C:\Users\Admin\eclipse-workspace\C-Biomarker.net\target\classes
+[INFO] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/Activator.java: Some input files use unchecked or unsafe operations.
+[INFO] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/Activator.java: Recompile with -Xlint:unchecked for details.
+[INFO] -------------------------------------------------------------
+[WARNING] COMPILATION WARNING : 
+[INFO] -------------------------------------------------------------
+[WARNING] bootstrap class path not set in conjunction with -source 8
+[WARNING] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/hc/Dijkstra.java:[130,30] Integer(int) in java.lang.Integer has been deprecated
+[INFO] 2 warnings 
+[INFO] -------------------------------------------------------------
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/alg/KcoreRunner.java:[71,37] no suitable constructor found for RCore(kcore.plugin.alg.param.KcoreParameters,java.lang.String,boolean)
+    constructor kcore.plugin.rcore.sequence.RCore.RCore() is not applicable
+      (actual and formal argument lists differ in length)
+    constructor kcore.plugin.rcore.sequence.RCore.RCore(kcore.plugin.alg.param.KcoreParameters,java.lang.String) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/alg/KcoreRunner.java:[111,44] no suitable constructor found for hc_algorithm(kcore.plugin.alg.param.KcoreParameters,java.lang.String,boolean)
+    constructor kcore.plugin.hc.hc_algorithm.hc_algorithm(kcore.plugin.alg.param.KcoreParameters,java.lang.String) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor kcore.plugin.hc.hc_algorithm.hc_algorithm() is not applicable
+      (actual and formal argument lists differ in length)
+
+[ERROR] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/biomarker/Biomaker.java:[26,22] no suitable constructor found for RCore(kcore.plugin.alg.param.KcoreParameters,java.lang.String,boolean)
+    constructor kcore.plugin.rcore.sequence.RCore.RCore() is not applicable
+      (actual and formal argument lists differ in length)
+    constructor kcore.plugin.rcore.sequence.RCore.RCore(kcore.plugin.alg.param.KcoreParameters,java.lang.String) is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/biomarker/Biomaker.java:[27,22] no suitable constructor found for hc_algorithm(kcore.plugin.alg.param.KcoreParameters,java.lang.String,boolean)
+    constructor kcore.plugin.hc.hc_algorithm.hc_algorithm(kcore.plugin.alg.param.KcoreParameters,java.lang.String) is not applicable
+      (actual and formal argument lists differ in length)
+    constructor kcore.plugin.hc.hc_algorithm.hc_algorithm() is not applicable
+      (actual and formal argument lists differ in length)
+[ERROR] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/biomarker/Biomaker.java:[32,35] cannot find symbol
+  symbol:   class Biomarkeresult
+  location: class kcore.plugin.biomarker.Biomaker
+[ERROR] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/biomarker/Biomaker.java:[37,80] cannot find symbol
+  symbol:   method getRcore()
+  location: variable rc of type kcore.plugin.rcore.sequence.RCore
+[ERROR] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/biomarker/Biomaker.java:[38,43] cannot find symbol
+  symbol:   method getHcEntropy()
+  location: variable hc of type kcore.plugin.hc.hc_algorithm
+[ERROR] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/biomarker/Biomaker.java:[84,17] cannot find symbol
+  symbol:   method writeFile(kcore.plugin.rcore.sequence.RCore,kcore.plugin.hc.hc_algorithm)
+  location: class kcore.plugin.biomarker.Biomaker
+[INFO] 8 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.810 s
+[INFO] Finished at: 2023-02-04T07:05:02+07:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project C-Biomarker.net: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/alg/KcoreRunner.java:[71,37] no suitable constructor found for RCore(kcore.plugin.alg.param.KcoreParameters,java.lang.String,boolean)
+[ERROR]     constructor kcore.plugin.rcore.sequence.RCore.RCore() is not applicable
+
+[ERROR]       (actual and formal argument lists differ in length)
+[ERROR]     constructor kcore.plugin.rcore.sequence.RCore.RCore(kcore.plugin.alg.param.KcoreParameters,java.lang.String) is not applicable
+[ERROR]       (actual and formal argument lists differ in length)
+[ERROR] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/alg/KcoreRunner.java:[111,44] no suitable constructor found for hc_algorithm(kcore.plugin.alg.param.KcoreParameters,java.lang.String,boolean)
+[ERROR]     constructor kcore.plugin.hc.hc_algorithm.hc_algorithm(kcore.plugin.alg.param.KcoreParameters,java.lang.String) is not applicable
+[ERROR]       (actual and formal argument lists differ in length)
+[ERROR]     constructor kcore.plugin.hc.hc_algorithm.hc_algorithm() is not applicable
+[ERROR]       (actual and formal argument lists differ in length)
+[ERROR] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/biomarker/Biomaker.java:[26,22] no suitable constructor found for RCore(kcore.plugin.alg.param.KcoreParameters,java.lang.String,boolean)
+[ERROR]     constructor kcore.plugin.rcore.sequence.RCore.RCore() is not applicable
+[ERROR]       (actual and formal argument lists differ in length)
+[ERROR]     constructor kcore.plugin.rcore.sequence.RCore.RCore(kcore.plugin.alg.param.KcoreParameters,java.lang.String) is not applicable
+[ERROR]       (actual and formal argument lists differ in length)
+[ERROR] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/biomarker/Biomaker.java:[27,22] no suitable constructor found for hc_algorithm(kcore.plugin.alg.param.KcoreParameters,java.lang.String,boolean)
+[ERROR]     constructor kcore.plugin.hc.hc_algorithm.hc_algorithm(kcore.plugin.alg.param.KcoreParameters,java.lang.String) is not applicable
+[ERROR]       (actual and formal argument lists differ in length)
+[ERROR]     constructor kcore.plugin.hc.hc_algorithm.hc_algorithm() is not applicable
+[ERROR]       (actual and formal argument lists differ in length)
+[ERROR] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/biomarker/Biomaker.java:[32,35] cannot find symbol
+[ERROR]   symbol:   class Biomarkeresult
+[ERROR]   location: class kcore.plugin.biomarker.Biomaker
+[ERROR] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/biomarker/Biomaker.java:[37,80] cannot find symbol
+[ERROR]   symbol:   method getRcore()
+[ERROR]   location: variable rc of type kcore.plugin.rcore.sequence.RCore
+[ERROR] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/biomarker/Biomaker.java:[38,43] cannot find symbol
+[ERROR]   symbol:   method getHcEntropy()
+[ERROR]   location: variable hc of type kcore.plugin.hc.hc_algorithm
+[ERROR] /C:/Users/Admin/eclipse-workspace/C-Biomarker.net/src/main/java/kcore/plugin/biomarker/Biomaker.java:[84,17] cannot find symbol
+[ERROR]   symbol:   method writeFile(kcore.plugin.rcore.sequence.RCore,kcore.plugin.hc.hc_algorithm)
+
+[ERROR]   location: class kcore.plugin.biomarker.Biomaker
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
